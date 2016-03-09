@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/divide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:id="@+id/edit_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/edit_padding_left"
+        android:paddingRight="@dimen/edit_padding_right" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="6dip"
+                android:paddingBottom="@dimen/edit_padding_bottom"
+                android:paddingTop="@dimen/edit_padding_top"
+                android:text="@null"
+                android:minHeight="250dp"
+                android:textColor="@color/content_text_color" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#E7E7E7</color>
+    <color name="divider_line_color">#CFCFCF</color>
+    <color name="content_text_color">#666666</color>
+    <color name="grid_date_color">#B1B1B1</color>
+    <color name="memo_date_color">#7E7E7E</color>
+    <color name="item_background_color">#f9f9f9</color>
+    <color name="item_background_pressed_color">#ffffff</color>
+    <color name="bottom_background_color">#000000</color>
+    <color name="plus_color">#B6B6B4</color>
+    <color name="bottom_bar_background">#D9000000</color>
+    <color name="transparent_image_button">#00000000</color>
+    <color name="delete_panel_background">#FF4900</color>
+    <color name="delete_panel_text_color">#FFFFFF</color>
+    <color name="evernoe_panel_background">#09B9FF</color>
+    <color name="proudly_color">#7E7E7E</color>
+    <color name="load_background">#E7E7E7</color>
+    <color name="setting_press">#dadada</color>
+	<color name="red">#ff0000</color>
+	<color name="item_selected_color">#fffb82</color>
+</resources>

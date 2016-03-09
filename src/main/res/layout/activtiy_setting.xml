@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_line_height"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <LinearLayout
+            android:id="@+id/bind_evernote"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_panel_height"
+            android:background="@drawable/setting_item"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/setting_image"
+                android:layout_height="@dimen/setting_image"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_evernote" />
+
+            <TextView
+                android:id="@+id/bind_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/bind_evernote" />
+
+            <ImageView
+                android:id="@+id/bind_arrow"
+                android:layout_width="@dimen/arrow_size"
+                android:layout_height="@dimen/arrow_size"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_rightarrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_height"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:id="@+id/setting_start"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_panel_height"
+            android:background="@drawable/setting_item"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/setting_image"
+                android:layout_height="@dimen/setting_image"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_start" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/start_from_memo" />
+
+            <Switch
+                android:id="@+id/open_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textOff="@string/open_memo_off"
+                android:textOn="@string/open_memo_on"
+                android:checked="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_height"
+            android:background="@color/divider_line_color" />
+
+        <LinearLayout
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_panel_height"
+            android:background="@drawable/setting_item"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/setting_image"
+                android:layout_height="@dimen/setting_image"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_heart" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/rate_us" />
+
+            <ImageView
+                android:layout_width="@dimen/arrow_size"
+                android:layout_height="@dimen/arrow_size"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_rightarrow" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_height"
+            android:background="@color/divider_line_color" />
+    </LinearLayout><![CDATA[
+
+    Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Switch"
+        android:id="@+id/switch1"
+        android:layout_gravity="center_horizontal"
+        android:checked="true" />
+
+    ]]>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/proud_margin_bottom"
+        android:gravity="bottom|center"
+        android:text="@string/proudly"
+        android:textColor="@color/proudly_color"
+        android:textSize="@dimen/proud_text_size" />
+
+</LinearLayout>

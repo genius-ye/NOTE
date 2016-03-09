@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/item_outer_padding" >
+
+    <RelativeLayout
+        android:id="@+id/hover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hover_background"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="9dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/uploading"
+            android:layout_width="@dimen/item_upload_width"
+            android:layout_height="@dimen/item_upload_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_upload"
+            android:visibility="invisible" />
+
+        <com.genius.custom.MinusTextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:paddingTop="@dimen/item_text_padding_top"
+            android:textColor="@color/content_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/grid_date_height"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/content"
+            android:layout_marginTop="5dp"
+            android:gravity="center|right"
+            android:text="@null"
+            android:textColor="@color/grid_date_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

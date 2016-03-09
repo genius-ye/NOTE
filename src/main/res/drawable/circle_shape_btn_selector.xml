@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- layout background -->
+    <item>
+        <!-- show rectangle area -->
+        <shape android:shape="oval" >
+            <gradient
+                android:angle="180"
+                android:startColor="#77777777"
+                android:centerColor="#77777777"
+                android:endColor="#77777777"/>
+        </shape>
+    </item>
+    <!-- layout foreground -->
+    <item
+        android:bottom="2px"
+        android:right="1px"
+       >
+        <!-- show rectangle area -->
+        <shape android:shape="oval" >
+            <solid android:color="#cbec8a" />
+        </shape>
+    </item>
+</layer-list>  

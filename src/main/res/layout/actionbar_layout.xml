@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NOTE"
+        android:id="@+id/textView"
+        />
+
+    <com.genius.view.Clear_EditText
+        android:id="@+id/actionbar_layout_multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="search"
+        android:visibility="gone" />
+
+</LinearLayout>

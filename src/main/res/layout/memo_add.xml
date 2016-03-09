@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/item_outer_padding" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hover_border_normal" >
+
+        <com.genius.custom.MinMaxTextView
+            android:id="@+id/plus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_max_height"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:maxHeight="@dimen/content_max_height"
+            android:minHeight="@dimen/content_min_height"
+            android:text="@string/plus"
+            android:textColor="@color/plus_color"
+            android:textSize="80sp" />
+    </RelativeLayout>
+
+</LinearLayout>
